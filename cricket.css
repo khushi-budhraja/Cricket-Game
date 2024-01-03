@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: rgb(16, 8, 8);
+}
+#game-heading{
+    font-size: 80px;
+    color:yellow;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.button{
+    border-radius: 50px;
+    height: 150px;
+    width: 150px;
+    margin: 10px;   /*to bring space between buttons*/
+    cursor: pointer;
+    background-color: hsl(180, 63%, 51%);
+}
+
+.image-choice{
+    height: 100px ;
+}
+
+#reset-button{
+    height: 60px;
+    width: 80px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.display-score{
+    color: rgb(148, 250, 148);
+    font-style: italic ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
